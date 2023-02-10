@@ -19,7 +19,7 @@
     "whatsapp-multi-device"
   ],
   "base": "https://github.com/high-galaxy",
-  "author": "abhi",
+  "author": "high-galaxy",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "4.4.0",
