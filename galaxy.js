@@ -6,7 +6,7 @@ const { Configuration, OpenAIApi } = require("openai")
 let setting = require('./accesser.json')
 const BOT_NAME = process.env.BOT_NAME ?? "Harshit ethic";
 
-module.exports = sansekai = async (client, m, chatUpdate, store) => {
+module.exports = galaxy = async (client, m, chatUpdate, store) => {
     try {
         var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
         var budy = (typeof m.text == 'string' ? m.text : '')
@@ -71,7 +71,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                     const openai = new OpenAIApi(configuration);
 
                     let prompt_template =
-                        "I am artificial intelligence " +
+                        "I am ChatsUp AI " +
                         BOT_NAME +
                         " developed by a Harshit Sharma.\n\nHuman: Hi. How are you?\n" +
                         BOT_NAME +
