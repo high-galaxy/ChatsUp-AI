@@ -18,8 +18,8 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "base": "https://github.com/harshitethic",
-  "author": "harshitethic",
+  "base": "https://github.com/high-galaxy",
+  "author": "abhi",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "4.4.0",
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harshitethic/whatsapp-chatgpt.git"
+    "url": "git+https://github.com/high-galaxy/ChatsUp-AI.git"
   },
   "bugs": {
-    "url": "https://github.com/harshitethic/whatsapp-chatgpt/issues"
+    "url": "https://github.com/high-galaxy/ChatsUp-AI/issues"
   },
-  "homepage": "https://github.com/harshitethic/whatsapp-chatgpt#readme"
+  "homepage": "https://github.com/high-galaxy/ChatsUp-AI#readme"
 }
